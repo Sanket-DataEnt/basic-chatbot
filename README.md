@@ -21,7 +21,7 @@ ollama serve
 ollama pull llama3.2
 
 # 4. Clone/download this project, then navigate to it
-cd mistral
+cd basic-chatbot
 
 # 5. Install Python dependencies
 pip install -e .
@@ -90,7 +90,7 @@ This only needs to be done once.
 If you have Git:
 ```bash
 git clone <repository-url>
-cd mistral
+cd basic-chatbot
 ```
 
 Or download and extract the ZIP file, then navigate to the folder.
@@ -232,7 +232,7 @@ Once you're comfortable with this app, try:
 ## Project Structure
 
 ```
-mistral/
+basic-chatbot/
 ├── pyproject.toml       # Project dependencies
 ├── chat.py              # Main chat application (start here!)
 ├── chat_streaming.py    # Streaming version - see words appear one by one!
